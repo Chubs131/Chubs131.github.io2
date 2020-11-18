@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<title>
+		My site
+	</title>
+    <style>
+    .a{
+    height: 74px;
+    width: 50%;
+    color: #FFC0CB;
+background: #cafcca;
+position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+
+.b{
+
+    height: 74px;
+    width: 50%;
+    color: #080402:;
+background: #faf75c;
+position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+</style>
+
+<script>
+function chpok(id){
+elem = document.getElementById(id);
+state = elem.style.display;
+if (state =='') elem.style.display='none';
+else elem.style.display='';
+}
+</script>
+
+	</head>
+	<body>	
+	<hr> 
+
+	<h3 align="center"
+	style="color: #00ffff">
+		привет)))
+	</h3>
+	<button align="center" class="a" onclick="chpok('y')">
+		<h1>тЫкНи</h1>
+	</button>
+	<hr>
+	<div id="y">
+		<img src="file:///Users/ulyasonya/Desktop/cross.jpg">
+	</div>
+	
+
+<button align="center" class="b" onclick="chpok('o')">
+		<h1>еЩё РаЗ</h1>
+	</button>
+	<hr>
+	<div id="o">
+		<img src="file:///Users/ulyasonya/Desktop/rrr.jpg">
+	</div>
+
+	</body>
+</html>
